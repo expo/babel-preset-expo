@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-expo",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "The Babel preset for Expo projects",
   "main": "index.js",
   "scripts": {
@@ -36,7 +36,7 @@
     "babel-preset-react-native": "^4.0.0"
   },
   "devDependencies": {
-    "babel-core": "^6.25.0",
-    "jest": "^20.0.4"
+    "babel-core": "^6.26.0",
+    "jest": "^21.2.1"
   }
 }
