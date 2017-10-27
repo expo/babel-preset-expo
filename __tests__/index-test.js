@@ -15,10 +15,7 @@ it(`compiles sample files`, () => {
   let filenames = fs.readdirSync(samplesPath);
 
   for (let filename of filenames) {
-    let { code, map, ast } = babel.transformFileSync(
-      path.join(samplesPath, filename),
-      options
-    );
+    let { code, map, ast } = babel.transformFileSync(path.join(samplesPath, filename), options);
 
     expect(code).toBeDefined();
     expect(map).toBeDefined();
